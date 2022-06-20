@@ -44,5 +44,12 @@ Doing this even gives us a nice little performance display in the top right of o
 
 ![image](https://user-images.githubusercontent.com/104875856/174467336-5423e53b-68b6-4ddd-b888-e81c752cddcf.png)
 
- Needless to say, this gives us quite some power over the game. I spent a while exploring the possibilities and it's a lot of fun to just see how the game works and what commands the developers are working with. Anyway, before I talk more about 
+ Needless to say, this gives us quite some power over the game. I spent a while exploring the possibilities and it's a lot of fun to just see how the game works and what commands the developers are working with.
+ 
+Anyway, after exploring for a while I became curious about this one command, `inventory`. It lets you add an item to your inventory based on an ItemID. Now, there is a command that lets you see an items ID when you hover over it, but this limits us to items in the store or your inventory. So instead of blindly guessing ItemID's and hoping I get something cool, I rewrote the code for the command so that it writes it's results to a file called `ITEMLOGS.txt`. 
+ 
+Then I went into the game and just added items 1 to 30,000. I ordered the resulting list based on ItemID and now we have an interesting list of approximately 20,282 items.
 
+I'll upload this list to this repository and leave you with the image of an amalgamation of unobtainable items.
+
+![image](https://user-images.githubusercontent.com/104875856/174506251-f2011d2d-ac18-431b-8001-d51dce2725d8.png)
